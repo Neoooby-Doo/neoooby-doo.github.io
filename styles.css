@@ -52,16 +52,18 @@ body {
   transition: color 0.3s ease;
 }
 
-.svg-icon {
-  fill: gray;
-  transition: fill 0.3s ease;
+.svg-img {
   width: 24px;
   height: 24px;
+  filter: grayscale(100%) brightness(0.5);
+  transition: filter 0.3s ease;
 }
 
-.bsu-icon.clicked .svg-icon {
-  fill: black;
+.bsu-icon.clicked .svg-img {
+  filter: none;
 }
+
+
 
 
 /* Active platform colors */
