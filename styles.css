@@ -1,7 +1,6 @@
 body {
   font-family: "Underdog", system-ui;
   text-align: center;
-  background-color: #f9f9f9;
   margin: 0;
   padding: 50px;
 }
@@ -39,3 +38,20 @@ body {
   color: #333;
   line-height: 1.6;
 }
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: gray;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+/* Active platform colors */
+.x-icon.clicked { color: #1DA1F2; }        /* X/Twitter Blue */
+.orcid-icon.clicked { color: #A6CE39; }    /* ORCID Green */
+.fb-icon.clicked { color: #1877F2; }       /* Facebook Blue */
