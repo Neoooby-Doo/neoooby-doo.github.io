@@ -52,6 +52,19 @@ body {
   transition: color 0.3s ease;
 }
 
+.svg-icon {
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%) brightness(0.5); /* makes it gray */
+  transition: filter 0.3s ease;
+}
+
+/* When tapped/clicked */
+.bsu-icon.clicked .svg-icon {
+  filter: none; /* show original color (black) */
+}
+
+
 /* Active platform colors */
 .x-icon.clicked { color: #1DA1F2; }        /* X/Twitter Blue */
 .orcid-icon.clicked { color: #A6CE39; }    /* ORCID Green */
