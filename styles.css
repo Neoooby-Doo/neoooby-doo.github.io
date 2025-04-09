@@ -56,3 +56,5 @@ body {
 .x-icon.clicked { color: #1DA1F2; }        /* X/Twitter Blue */
 .orcid-icon.clicked { color: #A6CE39; }    /* ORCID Green */
 .fb-icon.clicked { color: #1877F2; }       /* Facebook Blue */
+.github-icon.clicked { color: #333; }        /* GitHub dark gray */
+.wp-icon.clicked { color: #21759B; }         /* WordPress blue */
