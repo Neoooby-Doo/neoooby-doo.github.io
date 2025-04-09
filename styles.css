@@ -53,15 +53,14 @@ body {
 }
 
 .svg-icon {
+  fill: gray;
+  transition: fill 0.3s ease;
   width: 24px;
   height: 24px;
-  filter: grayscale(100%) brightness(0.5); /* makes it gray */
-  transition: filter 0.3s ease;
 }
 
-/* When tapped/clicked */
 .bsu-icon.clicked .svg-icon {
-  filter: none; /* show original color (black) */
+  fill: black;
 }
 
 
